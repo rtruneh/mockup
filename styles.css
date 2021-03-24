@@ -1,6 +1,6 @@
 body {
-    background-color: teal;
-    color: white;
+    background-color #ffeb3b;
+    color: black;
 
 }
 
@@ -8,3 +8,4 @@ img{
     border: 10px solid purple;
 }
 
+nav{ color: black;}
