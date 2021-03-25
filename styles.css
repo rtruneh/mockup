@@ -99,8 +99,8 @@ li a {
     font-size: 20pt;
     background-color: wheat;
     display: block;
-    position: fixed;
-    left: 0;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     text-align: center;
   }
