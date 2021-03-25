@@ -1,11 +1,101 @@
-body {
-    background-color #ffeb3b;
+h1 {
+    font-family: fantasy;
+    font-size: 3pc;
+    width: 100%;
+
+ }
+ 
+ body {
+    
+    background: url("224059_c3164f35cf3c0420_b.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    
+}
+
+ 
+
+
+nav { 
     color: black;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 40px;
+    background-color: wheat;
+    display: block;
 
 }
 
-img{
-    border: 10px solid purple;
+li {
+    display: inline;
 }
 
-nav{ color: black;}
+li a {
+    display: inline block;
+    width: 60px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black
+}
+
+.dropbtn {
+    color: black;
+    background-color: wheat;
+    font-size: 40px;
+    font-family: fantasy;
+    font-style: bold;
+    border: none;
+    margin: 0;
+    padding: 100;
+
+    
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 25pt;
+  }
+  
+ 
+  .dropdown-content a {
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {background-color: rgb(9, 116, 9);}
+
+  .dropdown:hover .dropdown-content {display: inline-block ;}
+    
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  p {
+
+    font-size: 24pt;
+  }
+
+  p1 {
+      font-size: 32pt;
+  }
+
+  footer{
+    color: black;
+    font-size: 20pt;
+    background-color: wheat;
+    display: block;
+    position: fixed;
+  }
