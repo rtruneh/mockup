@@ -5,7 +5,7 @@ var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18) {
-    greeting = 'I!';
+    greeting = 'SELAM!';
 } else if (hourNow > 12) {
     greeting = 'Good afternoon!';
 } else if (hourNow > 0) {
@@ -14,20 +14,3 @@ if (hourNow > 18) {
     greeting = 'Welcome!';
 }
 
-var MLstrings = [
-    {
-        English: "Hello",
-        Amharic: "Selam",
-    },
-    {   
-        English: "Bye",
-        Amharic: "Ciao",
-    }
-]
-
-var MLcode = [
-    {
-        code: "us",
-        name: "English",},
-    {   code: "et",
-        name: "amharic",}]
