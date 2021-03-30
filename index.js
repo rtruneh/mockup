@@ -1,22 +1,9 @@
-function sayHello() { 
-    document.write ('Hello');
-}
+window.alert('SELAM! Its good to see you!!');
 
 
+confirm("Proceed only if you're ready to TRAVEL!")
 
-// This script will customize the greeting depending on time of day*/
+let userName = prompt('Please enter a valid email address');
 
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-
-if (hourNow > 18) {
-    greeting = 'SELAM!';
-} else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
-} else if (hourNow > 0) {
-    greeting = 'Good morning!';
-} else {
-    greeting = 'Welcome!';
-}
+alert(feedback);
 
