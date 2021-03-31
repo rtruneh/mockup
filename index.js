@@ -1,9 +1,14 @@
-window.alert('SELAM! Its good to see you!!');
+const name = document.getElementById('name')
+const password = document.getElementById('password')
+const form = document.getElementById('form')
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+})
 
 
-confirm("Proceed only if you're ready to TRAVEL!")
 
-let userName = prompt('Please enter a valid email address');
 
-alert(feedback);
+
+
 
