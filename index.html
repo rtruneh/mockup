@@ -1,51 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <title> Ethiopia </title>
+    <title>Ethiopia</title>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="styles.css">
-    
-    <h1>  E T H I O P I A </h1>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Travel</a></li>
-            <li><a href="#">Contact</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Affiliates</button>
-                <div class="dropdown-content">
-                    <a href="https://saraperrayy.github.io/mockup/">Sara</a>
-                    <a href="https://sahenderson101.github.io/ice-cream-2/">Sharonese</a>
-                    </div>
-            </li>
-        </ul>
-    </nav>
-
-
-
 </head>
+
 <body>
+   
+    <form method="POST" action="home.html" onsubmit="checkforblank()">
+        <input type="text" id="username" name="username" placeholder="username">
+        <br>
+        <input type="text" id="email" name="email" type="email" placeholder="password">
+        <br>
+       <input type="submit"/>
 
     
+    </form>
+    
+    <a href="home.html"><input type="submit"/></a>
 
-    <script>
-        getUsername()
-        validateForm()
-    </script>
-    
-    <article>
-        <p>Travel has become a past time that transends all the things
-            that divide us as human beings. No matter how much money you have
-            or where you're from you can travel!</p>
-
-       <p1>So welcome in...take a look around and let us know how we can help
-           make your travel possible. </p1>
-    
-    </article>
-    
-    
+ 
     
     <footer class="footer">
         
@@ -54,4 +29,5 @@
 
 </body>
 </html>
+
 
