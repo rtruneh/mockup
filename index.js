@@ -8,4 +8,5 @@ function checkforblank()
     return true;
 }}
 
+checkforblank()
 

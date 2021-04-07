@@ -1,13 +1,18 @@
 function getImageCount() {
-    // get number from user
-    let pictureCount = window.prompt('How many pictures do you want?')
-    // first check to see if what they gave me is a number
-    if(isNaN(pictureCount) === false) {
-      document.write(`<h1>${pictureCount}</h1>`)
+    let pictureCount = window.prompt('How do you rate us?')
+    if(isNaN(pictureCount) === false) 
+  {
       for(var i = 0; i < pictureCount; i++) {
-        document.write('<img src="https://static01.nyt.com/images/2021/01/22/world/21xp-sanders-meme/21xp-sanders-meme-superJumbo-v4.jpg" alt="bernie" />')
+        document.write('<img src="https://st3.depositphotos.com/4100307/13184/v/380/depositphotos_131846426-stock-illustration-official-flag-of-ethiopi.jpg" />')
         }
       } else {
-        pictureCount = window.prompt('use a number please')
+        pictureCount = window.prompt('Try an actual number...')
       }
     }
+function getNumber() {
+  let getNumber = pictureCount ('text')
+}
+
+
+  getImageCount();
+  
